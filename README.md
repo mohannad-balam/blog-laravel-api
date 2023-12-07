@@ -1,9 +1,11 @@
-Get Started
-clone or fork the repo
-copy .env.exmaple file copy .env.example .env
-generate app key php artisan key:generate
-add database credentials
-install dependencies composer install
-link storage php artisan storage:link
-run migration php artisan migrate
-Running on a specific ip php artisan serv --host <YOUR_IP> --port <YOUR_PORT>
+
+<h1>
+Get Started     
+</h1>
+copy .env.exmaple file copy .env.example .env <br>
+generate app key => php artisan key:generate <br>
+add database credentials <br>
+install dependencies => composer install or composer update <br>
+link storage => php artisan storage:link <br>
+run migration => php artisan migrate <br>
+Running on a specific ip => php artisan serv --host <YOUR_IP> --port <YOUR_PORT> 
