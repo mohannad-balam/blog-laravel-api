@@ -8,4 +8,4 @@ add database credentials <br>
 install dependencies => composer install or composer update <br>
 link storage => php artisan storage:link <br>
 run migration => php artisan migrate <br>
-Running on a specific ip => php artisan serv --host <YOUR_IP> --port <YOUR_PORT> 
+Running on a specific ip => php artisan serve --host <YOUR_IP> --port <YOUR_PORT> 
